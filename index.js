@@ -135,7 +135,7 @@ module.exports = {
                         '-jar',
                         'plantuml.jar',
                         '-nbthread auto',
-                        //'-tsvg',
+                        '-tpng',
                         umlPath,
                         '-o',
                         '.'
